@@ -1,7 +1,7 @@
 version: '3'
 services:
   medusa:
-    build: .
+    build: ./medusa
     ports:
      - "5000:5000"
   redis:
